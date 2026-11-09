@@ -5,10 +5,12 @@ Website ini tampil rapi di ponsel, tablet, dan laptop.
 ![Tampilan beranda portofolio](img/jadwal.PNG)
 ![Tampilan beranda portofolio](img/portofolio.PNG)
 ![Tampilan beranda portofolio](img/proyek-kontak.png)
+![Tampilkan beranda portofolio](img/P1W06_Rana_02_console.PNG)
 ## Fitur
 - Halaman **Beranda** berisi profil, hobi, cita-cita, keahlian, dan jadwal belajar
 - Halaman **Proyek** berisi daftar proyek dalam bentuk kartu
 - Halaman **Kontak** berisi form untuk menghubungi saya
+- Halaman **Kalkulator Nilai** berisi form untuk menghitung rata-rata suatu nilai
 - Tampilan responsif dengan Flexbox dan *media query*
 ## Teknologi
 - HTML5
