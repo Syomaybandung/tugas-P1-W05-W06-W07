@@ -32,14 +32,14 @@ const proyek = [
 	{
 		judul: "Halaman Profil Pertama",
 		kategori: "HTML",
-		gambar: "img/portofolio.PNG",
+		gambar: "img/html beranda.PNG",
 		alt: "Tangkapan layar halaman profil Ananditya Zahra",
 		deskripsi: "Halaman web pertama saya, berisi profil, hobi, cita-cita, keahlian, dan kontak.",
 	},
 	{
 		judul: "Form Kontak",
 		kategori: "HTML",
-		gambar: "img/proyek-kontak.png",
+		gambar: "img/kontakhtml.PNG",
 		alt: "Tangkapan layar form kontak",
 		deskripsi: "Form kontak dengan label dan validasi bawaan browser.",
 	},
@@ -64,6 +64,13 @@ const proyek = [
 		alt: "Tangkapan layar hasil JavaScript di console",
 		deskripsi: "Hasil dari latihan JavaScript yang ditampilkan di console.",
 	},
+	{
+		judul: "Portofolio Responsif",
+		kategori: "CSS",
+		gambar: "img/rensponsive posrto.PNG",
+		alt: "Tangkapan layar halaman profil",
+		deskripsi: "Halaman profil yang menampilkan informasi pribadi dan kontak.",
+	}
 ];
 
 const daftarProyek = document.querySelector("#daftar-proyek");
@@ -118,4 +125,16 @@ if (daftarProyek && jumlahProyek) {
 	});
 
 	tampilkanProyek(proyek);
+}
+
+// 3. Penghitung karakter pesan (halaman kontak)
+const kontakPesan = document.querySelector("#pesan");
+const kontakHitung = document.querySelector("#hitung-karakter");
+
+if (kontakPesan && kontakHitung) {
+	kontakHitung.textContent = `${kontakPesan.value.length}/300 karakter`;
+
+	kontakPesan.addEventListener("input", () => {
+		kontakHitung.textContent = `${kontakPesan.value.length}/300 karakter`;
+	});
 }
